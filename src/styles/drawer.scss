@@ -1,0 +1,20 @@
+.drawer-container {
+  position: relative;
+  padding: 0 20px;
+
+  .content-container {
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: calc(100vh - 156px);
+  }
+
+  .footer-container {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

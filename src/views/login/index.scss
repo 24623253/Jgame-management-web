@@ -1,0 +1,118 @@
+.login {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  .bg-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 1100px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    .left-content {
+      flex: 1;
+      border-radius: 20px 0 0 20px;
+
+      .left-image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .right-content {
+      position: relative;
+      flex: 1;
+      text-align: center;
+      box-shadow: 0 7px 27px rgba(133, 169, 231, 0.51);
+      border-radius: 0 20px 20px 0;
+
+      .logo-image {
+        margin: 30px 0;
+        width: 100px;
+        height: auto;
+      }
+
+      .login-content {
+        position: relative;
+        padding: 0 40px;
+
+        .ipt-item {
+          position: relative;
+
+          .ipt {
+            padding: 0 20px 0 60px;
+            width: 100%;
+            height: 50px;
+            border: 1px solid #DCDCDC;
+            border-radius: 10px;
+            background: #EEEEEE;
+            outline: none;
+            color: #333333;
+            font-size: 16px;
+          }
+
+          .user-icon {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            z-index: 100;
+          }
+
+          &:nth-of-type(2) {
+            margin: 30px 0;
+          }
+
+          .verify-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            bottom: 10px;
+            text-align: center;
+            width: 140px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-radius: 0;
+            vertical-align: middle;
+            font-size: 26px;
+            user-select: none;
+            letter-spacing: 10px;
+            color: #053d84;
+            background: url('./images/verify_bg.png') no-repeat center;
+            background-size: cover;
+          }
+        }
+
+        .submit-btn {
+          margin-top: 20px;
+          width: 100%;
+          height: 60px;
+          color: #ffffff;
+          background: linear-gradient(90deg, rgba(111, 178, 255, 1), rgba(9, 95, 255, 1));
+          border-radius: 2px;
+          box-shadow: 0 7px 27px 0 rgba(50, 129, 255, 0.51);
+        }
+      }
+    }
+
+
+  }
+}
