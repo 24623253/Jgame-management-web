@@ -1,10 +1,17 @@
 # Jgame后台管理
 ====
 
+## J游戏的后台管理页面
+
 + 项目内版本号：1.0.0
 + 线上地址： http://101.133.171.109/
 + 环境： node.js v10.8.0   vue-cli v4.3.1
++ 后台接口： [Jgame-server](https://github.com/24623253/Jgame-server) 
++ uniapp（Android端&小程序端）： [Jgame-uniapp](https://github.com/24623253/Jgame-server) 
 
+```注意：
+本地环境接口为线上地址，如需更改，请查找.env.development进行更改 
+```
 
 ## Build Setup
 
