@@ -6,7 +6,7 @@
 + 项目内版本号：1.0.0
 + 线上地址： http://101.133.171.109/
 + 环境： node.js v10.8.0   vue-cli v4.3.1
-+ 后台接口： [Jgame-server](https://github.com/24623253/Jgame-server) 
++ 后端接口： [Jgame-server](https://github.com/24623253/Jgame-server) 
 + uniapp（Android端&小程序端）： [Jgame-uniapp](https://github.com/24623253/Jgame-uniapp) 
 
 ```注意：
