@@ -59,9 +59,9 @@
 
         <el-button type="info" size="mini" disabled @click="$handleData(record,'clientDrawer')">客户端权限</el-button>
 
-        <el-button type="warning" size="mini" @click="$handleConfirm(record.id,'此操作将重置该账户密码，是否继续？','resetPassword')">重置密码</el-button>
+        <el-button type="warning" size="mini" disabled @click="$handleConfirm(record.id,'此操作将重置该账户密码，是否继续？','resetPassword')">重置密码</el-button>
 
-        <el-button type="danger" size="mini" @click="$handleConfirm(record.id,'此操作将删除该用户，是否继续？')">删除</el-button>
+        <el-button type="danger" size="mini" disabled @click="$handleConfirm(record.id,'此操作将删除该用户，是否继续？')">删除</el-button>
       </template>
 
     </table-list>
