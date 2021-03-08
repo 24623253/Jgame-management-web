@@ -45,6 +45,11 @@ npm run dev
 npm run build
 ```
 
+- 账号密码
+```
+admin  /  123456
+```
+
 
 
 ### 前台技术
