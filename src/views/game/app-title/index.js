@@ -41,7 +41,6 @@ export default {
 
   mounted() {
     this.init()
-    console.log(this.baseApi)
   },
 
   watch: {

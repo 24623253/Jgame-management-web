@@ -146,7 +146,6 @@ export default {
       const fileListArr = []
       this.fileList.map(item => fileListArr.push({ screenshot: item.url, name: item.name, type: item.type }))
       this.editForm.imgBase_64 = fileListArr
-      console.log(this.editForm, '<<<<submit')
     }
 
   }

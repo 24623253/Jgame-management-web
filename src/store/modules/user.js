@@ -34,9 +34,7 @@ const actions = {
     }
     return new Promise((resolve, reject) => {
       $api.userInfo.token(params).then(res => {
-        console.log(res)
         const { token } = res.data
-        console.log(token, '<<<')
         // const token = `Bearer ${ value }`
         commit('SET_TOKEN', token)
         auth.setToken(token)

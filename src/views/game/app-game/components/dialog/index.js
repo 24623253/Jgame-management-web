@@ -75,7 +75,6 @@ export default {
             this.swiperList.push({ name: data.name + item, url: process.env.VUE_APP_BASE_API + item })
           })
         }
-        console.log(this.swiperList)
         this.dialogVisible = true
       }).finally(() => this.isSearching = false)
     },
@@ -124,7 +123,6 @@ export default {
       this.getBase64(file.raw).then(res => {
         this.swiperList.push({ name: file.name, url: res, type })
       })
-      console.log(this.swiperList, 'this.swiperList<<<<')
     },
 
     // 获取图片转base64

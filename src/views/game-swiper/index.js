@@ -41,7 +41,6 @@ export default {
 
   mounted() {
     this.$getData()
-    console.log(this.baseApi)
   },
 
   watch: {
